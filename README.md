@@ -1,18 +1,15 @@
-MNIST Digit Classification – Perceptron vs ANN vs CNN
+# MNIST Digit Classification – Perceptron vs ANN vs CNN
 
-Overview
+## Overview
 
-I built and compared three approaches for MNIST handwritten digit classification:
-
-  •	Perceptron (Single Layer)
-  
-  •	Artificial Neural Network (ANN / Multi-Layer Perceptron)
-  
-  •	Convolutional Neural Network (CNN)
+**I built and compared three approaches for MNIST handwritten digit classification:**
+- Perceptron (Single Layer)
+- Artificial Neural Network (ANN / Multi-Layer Perceptron)
+- Convolutional Neural Network (CNN)
   
 The aim was to understand how performance improves as models become more sophisticated.
 
-Repository Structure
+## Repository Structure
 
 │── Dataset
 
@@ -20,19 +17,19 @@ Repository Structure
 
 │── README.md             # Project documentation
 
-Workflow
+## Workflow
 
-1.	Data Preprocessing
-•	Loaded MNIST dataset (28×28 grayscale images).
-•	Normalized pixel values [0,1].
-•	Converted labels into categorical format.
-2.	Visualization
-•	Sample images plotted to better understand digit distribution.
-3.	Model Implementations
+**1. Data Preprocessing**
+- Loaded MNIST dataset (28×28 grayscale images).
+- Normalized pixel values [0,1].
+- Converted labels into categorical format.
+**2. Visualization**
+- Sample images plotted to better understand digit distribution.
+**3.	Model Implementations**
 •	Perceptron: Simple linear classifier.
 •	ANN: Multi-layer perceptron with hidden layers & non-linear activations.
 •	CNN: Used convolution, pooling, dropout, and dense layers for feature extraction.
-4.	Evaluation Metrics
+**4.	Evaluation Metrics**
 •	Accuracy
 •	Confusion Matrix
 •	Classification Report
