@@ -34,23 +34,23 @@ The aim was to understand how performance improves as models become more sophist
 •	Confusion Matrix
 •	Classification Report
 
-Results
+## Results
 
-Model	Test Accuracy
-Perceptron	~90.74%
-ANN (MLP)	~97.69%
-CNN	~99.21%
+**Model	Test Accuracy**
+|Perceptron	|~90.74%|
+|ANN (MLP)	|~97.69%|
+|CNN	|~99.21%|
 
 CNN achieved the best performance, proving the strength of convolutional layers for image classification.
 
-Tech Stack
+## Tech Stack
 
 •	Python
 •	NumPy, Pandas, Seaborn, Matplotlib
 •	scikit-learn
 •	TensorFlow / Keras
 
-Run Locally
+## Run Locally
 
 1.	Clone this repo:
 2.	git clone https://github.com/yourusername/mnist-cnn-comparison.git
@@ -60,15 +60,15 @@ Run Locally
 6.	Open the Jupyter Notebook:
 7.	jupyter notebook CNN_Project.ipynb
 
-Learning Outcomes
+## Learning Outcomes
 
-•	Difference in performance between shallow (Perceptron) and deep models (ANN, CNN).
-•	Why CNNs are the state-of-the-art for image classification.
-•	Hands-on practice with Keras & TensorFlow.
+- Difference in performance between shallow (Perceptron) and deep models (ANN, CNN).
+- Why CNNs are the state-of-the-art for image classification.
+- Hands-on practice with Keras & TensorFlow.
 
-Connect With Me
+**Connect With Me**
 
-•	🌐 LinkedIn
+•	🌐 [LinkedIn](www.linkedin.com/in/ahmad-shahzad-46a744248)
 •	💻 GitHub
 
-This project is a milestone in my Deep Learning journey. More advanced Computer Vision projects coming soon! 🚀
+**This project is a milestone in my Deep Learning journey. More advanced Computer Vision projects coming soon! 🚀**
