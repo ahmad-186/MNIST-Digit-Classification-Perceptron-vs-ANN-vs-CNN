@@ -23,35 +23,38 @@ The aim was to understand how performance improves as models become more sophist
 - Loaded MNIST dataset (28×28 grayscale images).
 - Normalized pixel values [0,1].
 - Converted labels into categorical format.
-- 
+  
 **2. Visualization**
 - Sample images plotted to better understand digit distribution.
+
 **3.	Model Implementations**
-  
-•	Perceptron: Simple linear classifier.
-•	ANN: Multi-layer perceptron with hidden layers & non-linear activations.
-•	CNN: Used convolution, pooling, dropout, and dense layers for feature extraction.
+- Perceptron: Simple linear classifier.
+- ANN: Multi-layer perceptron with hidden layers & non-linear activations.
+- CNN: Used convolution, pooling, dropout, and dense layers for feature extraction.
 
 **4.	Evaluation Metrics**
-•	Accuracy
-•	Confusion Matrix
-•	Classification Report
+- Accuracy
+- Confusion Matrix
+- Classification Report
 
 ## Results
 
 **Model	Test Accuracy**
-|Perceptron	|~90.74%|
-|ANN (MLP)	|~97.69%|
-|CNN	|~99.21%|
 
-CNN achieved the best performance, proving the strength of convolutional layers for image classification.
+Perceptron = ~90.74%
+
+ANN (MLP) = ~97.69%
+
+CNN = ~99.21%
+
+**CNN achieved the best performance, proving the strength of convolutional layers for image classification.**
 
 ## Tech Stack
 
-•	Python
-•	NumPy, Pandas, Seaborn, Matplotlib
-•	scikit-learn
-•	TensorFlow / Keras
+- Python
+- NumPy, Pandas, Seaborn, Matplotlib
+- scikit-learn
+- TensorFlow / Keras
 
 ## Run Locally
 
