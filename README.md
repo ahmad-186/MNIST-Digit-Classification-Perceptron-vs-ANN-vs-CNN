@@ -23,12 +23,15 @@ The aim was to understand how performance improves as models become more sophist
 - Loaded MNIST dataset (28×28 grayscale images).
 - Normalized pixel values [0,1].
 - Converted labels into categorical format.
+- 
 **2. Visualization**
 - Sample images plotted to better understand digit distribution.
 **3.	Model Implementations**
+  
 •	Perceptron: Simple linear classifier.
 •	ANN: Multi-layer perceptron with hidden layers & non-linear activations.
 •	CNN: Used convolution, pooling, dropout, and dense layers for feature extraction.
+
 **4.	Evaluation Metrics**
 •	Accuracy
 •	Confusion Matrix
@@ -68,7 +71,7 @@ CNN achieved the best performance, proving the strength of convolutional layers 
 
 **Connect With Me**
 
-•	🌐 [LinkedIn](www.linkedin.com/in/ahmad-shahzad-46a744248)
-•	💻 GitHub
+- 🌐 [LinkedIn](www.linkedin.com/in/ahmad-shahzad-46a744248)
+- 💻 GitHub
 
 **This project is a milestone in my Deep Learning journey. More advanced Computer Vision projects coming soon! 🚀**
