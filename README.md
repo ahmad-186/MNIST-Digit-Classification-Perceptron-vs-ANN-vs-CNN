@@ -11,7 +11,7 @@ The aim was to understand how performance improves as models become more sophist
 
 ## Repository Structure
 
-│── Dataset
+│── Dataset               # Dataset is large ( more than 100 Mbs ) so not possible to upload [Dataset Link](https://www.kaggle.com/datasets/oddrationale/mnist-in-csv)
 
 │── CNN_Project.ipynb     # Jupyter Notebook with full implementation
 
