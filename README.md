@@ -4,9 +4,9 @@ Overview
 
 I built and compared three approaches for MNIST handwritten digit classification:
 
-•	Perceptron (Single Layer)
-•	Artificial Neural Network (ANN / Multi-Layer Perceptron)
-•	Convolutional Neural Network (CNN)
+  •	Perceptron (Single Layer)
+  •	Artificial Neural Network (ANN / Multi-Layer Perceptron)
+  •	Convolutional Neural Network (CNN)
 The aim was to understand how performance improves as models become more sophisticated.
 
 Repository Structure
